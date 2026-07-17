@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="adornos.css">
     <title>creepy2006</title>
+    <link rel="icon" type="image/png" href="imagenes/2645475_1e92e.png">
 </head>
 <body>
     <header>
@@ -13,7 +14,7 @@
         </div>
         <div style="text-align: center; margin: 0px 0; background-color: #111; border: 1px solid #555; padding: 0px;">
     <p style="color: #00ff00; font-family: monospace; margin-bottom: 5px;">🎵 Now Playing: Nightcore Go Go Go 🎵</p>
-    <!-- La etiqueta de audio. Le ponemos "controls" para que se vea el reproductor y "loop" para que se repita infinitamente -->
+    <!-- audio -->
     <audio id="musica-fondo" src="music/Nightcore_Go_Go_Go_SNC-250737924.mp3" controls loop></audio>
 </div>
     </header>
@@ -56,15 +57,15 @@
     </aside>
     <aside class="bar2">
         <div class="barra-desplegable" onclick="mostrarOcultarInfo()">
-    <span id="icono-barra">[+]</span> Información Secreta
+    <span id="icono-barra">[+]</span> Secret Panel
     <div id="panel-secreto" style="display: none; background-color: #000; color: white; border: 2px solid #ff0000; padding: 15px; margin: 0 auto; width: 80%; text-align: center; box-sizing: border-box; word-wrap: break-word;">
             <p>aHR0cHM6Ly93d3cueW91dHViZS5jb20vcmVzdWx0cz9zZWFyY2hfcXVlcnk9aGF6bWUrdW4rdGV4dG8rY2lmcmFkbythbGVhdG9yaW8</p>
         </div>
 </div>
 <div id="widget-clima" style="background-color: #111; color: white; border: 2px solid #555; padding: 15px; margin: 10px auto; width: 80%; text-align: center; font-family: monospace;">
-            <h3 style="color: #ff0000; margin-top: 0;">Reporte del Clima</h3>
+            <h3 style="color: #ff0000; margin-top: 0;">Weather report</h3>
             <h2 id="clima-temp">--°C</h2>
-            <p id="clima-desc">Buscando señal...</p>
+            <p id="clima-desc">Searching signal...</p>
         </div>
     </aside>
     <script src="apisimulator.js"></script>
