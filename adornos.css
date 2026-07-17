@@ -10,9 +10,9 @@ img {
 }
 
 main {
-    position: relative; /* Esta es el ancla */
-    max-width: 900px;   /* Evita que se estire demasiado */
-    margin: 0 auto;     /* Esto centra toda tu página en la pantalla */
+    position: relative; 
+    max-width: 900px;  
+    margin: 0 auto;    
 }
 
 .header-text1 {
@@ -63,7 +63,8 @@ main {
     width: 20%;
     height: 120%;
     background-color: #ea6868;
-    border-bottom: 2px solid gray;
+    border: 2px solid gray;
+    border-radius: 10px;
 }
 
 .blood-image {
@@ -150,6 +151,32 @@ main {
 .button {
     position: absolute;
     top: 500px;
-    right: 330px;
+    right: 70px;
     z-index: 10;
+}
+
+.bar2 {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 20%;
+    height: 120%;
+    background-color: #ea6868;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+/* El diseño de la barra clickeable */
+.barra-desplegable {
+    background-color: #222222; /* Un gris muy oscuro */
+    color: #ff0000; /* Letras rojas tipo sangre */
+    border: 2px solid #555555;
+    padding: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer; /* Cambia el mouse a una manita */
+    width: 80%; /* Para que no ocupe toda la pantalla */
+    margin-left: auto;
+    margin-right: auto; /* Estos dos centran la barra */
 }
