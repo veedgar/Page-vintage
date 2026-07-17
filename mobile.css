@@ -1,33 +1,46 @@
 @media screen and (max-width: 768px) {
-    /* 1. Obligar a TODAS las columnas a apilarse una debajo de la otra */
-    main, 
-    aside, 
-    .bar1, 
-    .bar2, 
-    .content-background {
+    
+    /* 1. Apilar columnas principales */
+    main, aside, .bar1, .bar2, .content-background {
         width: 95% !important;
-        float: none !important;        /* Quita alineaciones horizontales */
-        position: static !important;   /* Quita posiciones flotantes */
-        display: block !important;     /* Las convierte en bloques apilables */
-        margin: 0 auto 20px auto !important; /* Centra y da espacio abajo */
+        float: none !important;
+        position: static !important;
+        display: block !important;
+        margin: 0 auto 20px auto !important;
         box-sizing: border-box;
     }
 
-    /* 2. El texto debe encajar */
+    /* 2. Centrar los Gifs rebeldes y redes sociales */
+    .sonic-image1, .sonic-image2, .instagram-icon, .github-icon, .texto_imginstagram, .logo {
+        position: static !important;
+        float: none !important;
+        display: block !important;
+        margin: 15px auto !important;
+        text-align: center !important;
+    }
+
+    /* 3. Arreglar los contenedores de los gifs */
+    div {
+        position: static !important;
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    /* 4. Ajustar textos e imágenes generales */
     p, h1, h2, h3, span {
         font-size: 14px;
         word-wrap: break-word;
     }
-
-    /* 3. Las imágenes jamás deben salir de la pantalla */
     img {
         max-width: 100% !important;
         height: auto !important;
     }
 
-    /* 4. Esconder la sangre gigante que rompe el diseño en móvil */
-    .blood-image, 
-    .blood-imageright {
+    /* 5. Esconder adornos que rompen el móvil */
+    .blood-image, .blood-imageright, .mii-image {
         display: none !important; 
     }
+
 }
