@@ -167,17 +167,16 @@ main {
     border-radius: 10px;
 }
 
-/* El diseño de la barra clickeable */
 .barra-desplegable {
-    background-color: #222222; /* Un gris muy oscuro */
-    color: #ff0000; /* Letras rojas tipo sangre */
+    background-color: #222222;
+    color: #ff0000; 
     border: 2px solid #555555;
     padding: 10px;
     margin-top: 30px;
     font-weight: bold;
     text-align: center;
-    cursor: pointer; /* Cambia el mouse a una manita */
-    width: 80%; /* Para que no ocupe toda la pantalla */
+    cursor: pointer; 
+    width: 80%; 
     margin-left: auto;
-    margin-right: auto; /* Estos dos centran la barra */
+    margin-right: auto;
 }

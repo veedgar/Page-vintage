@@ -1,6 +1,5 @@
 @media screen and (max-width: 768px) {
     
-    /* 1. Apilar columnas principales */
     main, aside, .bar1, .bar2, .content-background {
         width: 95% !important;
         float: none !important;
@@ -10,7 +9,6 @@
         box-sizing: border-box;
     }
 
-    /* 2. Centrar los Gifs rebeldes y redes sociales */
     .sonic-image1, .sonic-image2, .instagram-icon, .github-icon, .texto_imginstagram, .logo {
         position: static !important;
         float: none !important;
@@ -19,7 +17,6 @@
         text-align: center !important;
     }
 
-    /* 3. Arreglar los contenedores de los gifs */
     div {
         position: static !important;
         width: 100% !important;
@@ -28,7 +25,6 @@
         align-items: center !important;
     }
 
-    /* 4. Ajustar textos e imágenes generales */
     p, h1, h2, h3, span {
         font-size: 14px;
         word-wrap: break-word;
@@ -38,7 +34,6 @@
         height: auto !important;
     }
 
-    /* 5. Esconder adornos que rompen el móvil */
     .blood-image, .blood-imageright, .mii-image {
         display: none !important; 
     }

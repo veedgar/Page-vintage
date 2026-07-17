@@ -1,5 +1,3 @@
-// El "cerebro" de nuestro botón
-// Aquí pones las imágenes que quieras usar
 const imagenes = [
     "imagenes/Victor-surge-e569f5dc-0425-4d09-a45b-0edd9b0d9478.jpg",
     "imagenes/Gotosleepnds.jpg",
