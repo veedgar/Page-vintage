@@ -4,6 +4,17 @@ body {
     padding: 0;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    position: relative; /* Esta es el ancla */
+    max-width: 900px;   /* Evita que se estire demasiado */
+    margin: 0 auto;     /* Esto centra toda tu página en la pantalla */
+}
+
 .header-text1 {
     color: white;
     font-family: 'Arial', sans-serif;
@@ -124,5 +135,21 @@ body {
     right: 81%;
     color: white;
     font-family: 'Arial', sans-serif;
+    z-index: 10;
+}
+
+#imagen-terror {
+    position: absolute;
+    top: 380px;
+    right: 330px;
+    width: 110px;
+    height: auto;
+    z-index: 10;
+}
+
+.button {
+    position: absolute;
+    top: 500px;
+    right: 330px;
     z-index: 10;
 }
