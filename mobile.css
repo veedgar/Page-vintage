@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+    /* 1. Obligar a TODAS las columnas a apilarse una debajo de la otra */
+    main, 
+    aside, 
+    .bar1, 
+    .bar2, 
+    .content-background {
+        width: 95% !important;
+        float: none !important;        /* Quita alineaciones horizontales */
+        position: static !important;   /* Quita posiciones flotantes */
+        display: block !important;     /* Las convierte en bloques apilables */
+        margin: 0 auto 20px auto !important; /* Centra y da espacio abajo */
+        box-sizing: border-box;
+    }
+
+    /* 2. El texto debe encajar */
+    p, h1, h2, h3, span {
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+
+    /* 3. Las imágenes jamás deben salir de la pantalla */
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    /* 4. Esconder la sangre gigante que rompe el diseño en móvil */
+    .blood-image, 
+    .blood-imageright {
+        display: none !important; 
+    }
+}
