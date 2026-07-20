@@ -1,6 +1,6 @@
 const miApiKey = "b9a5083b165503bdae40599c6ef2ab42"; 
 
-const ciudad = "Maturin"; 
+const ciudad = "Caripito"; 
 
 const urlAPI = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${miApiKey}&units=metric&lang=es`;
 
